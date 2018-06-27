@@ -1,3 +1,8 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 #root {
   position: relative;
 }
@@ -7,7 +12,6 @@
   width: 100%;
   top: 20px;
   background: #fff;
-  border-radius: 3px;
   overflow: hidden;
   font-family: sans-serif;
   margin-bottom: 40px;
@@ -54,54 +58,15 @@
 
 .notificationsFrame .header .menuIcon {
   position: absolute;
-  width: 29px;
-  height: 15px;
-  top: 23px;
-  left: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
   cursor: pointer;
+  font-size: 30px;
+  color: rgba(255, 255, 255, .5);
 }
 
-.notificationsFrame .header .menuIcon:hover .dashTop,
-.notificationsFrame .header .menuIcon:hover .dashBottom,
-.notificationsFrame .header .menuIcon:hover .circle {
-  background: #fff;
-}
-
-.notificationsFrame .header .menuIcon .dashTop {
-  position: absolute;
-  width: 20px;
-  height: 3px;
-  top: 0;
-  left: 0;
-  background: #b2daff;
-  border-radius: 3px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-.notificationsFrame .header .menuIcon .dashBottom {
-  position: absolute;
-  height: 3px;
-  left: 0;
-  background: #b2daff;
-  border-radius: 3px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-  width: 29px;
-  top: auto;
-  bottom: 0;
-}
-
-.notificationsFrame .header .menuIcon .circle {
-  position: absolute;
-  height: 7px;
-  width: 7px;
-  border-radius: 4px;
-  top: -2px;
-  right: 0;
-  background: #b2daff;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+.notificationsFrame .header .menuIcon:hover {
+  color: rgba(255, 255, 255, 1);
 }
 
 .notificationsFrame .header .title {
