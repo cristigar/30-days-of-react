@@ -184,9 +184,7 @@ body {
   top: 11px;
 }
 
-.notificationsFrame .content .item .commentCount:after {
-  content: "\f075";
-  font-family: FontAwesome;
+.notificationsFrame .content .item .commentCount .commentIcon {
   position: absolute;
   font-size: 20px;
   color: #ebebeb;
@@ -196,7 +194,7 @@ body {
   z-index: 3;
 }
 
-.notificationsFrame .content .item .commentCount:hover:after {
+.notificationsFrame .content .item .commentCount .commentIcon:hover {
   color: lightblue;
 }
 
